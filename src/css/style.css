@@ -1,0 +1,80 @@
+body {
+    background-color: var(--background-color);
+    height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+}
+
+hr {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 20px;
+    width: 330px;
+    height: 350px;
+}
+
+.card .profile-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+}
+
+.card .profile-info .age {
+    color: var(--text-color);
+    margin-left: 5px;
+    font-weight: 700;
+}
+
+.card .profile-info img {
+    align-items: center;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.card .profile-info .city {
+    font-weight: 400;
+    margin: 10px 5px;
+}
+
+.card .profile-numbers {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.profile-numbers .info .counter, 
+.card .profile-info p{
+    font-weight: 700;
+}
+
+.card .profile-infor .age,
+.card .profile-info .city, 
+.profile-numbers .info .counter-type{
+    color: var(--text-color);
+}
+
+
+
+
